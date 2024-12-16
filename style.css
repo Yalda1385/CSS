@@ -1,0 +1,220 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: poppins, sans-serif;
+}
+
+body  {
+
+  background-image: url(../../../../../Downloads/CLI371.weather.fogbow_scott_robertson-920x511.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+p {
+  text-align: center;
+}
+
+a{
+  color: rgb(35, 69, 122);
+}
+
+a:hover {
+  color:  rgb(2, 18, 57);
+}
+a:active{
+  color: rgb(2, 18, 57);
+}
+.wrapper{
+  max-width: 1024px;
+  margin: 100px auto 0;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.col {
+  width: 40%;
+}
+
+.Heading{
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.contact-form{
+  text-align: center;
+  font-size: large;
+  padding:  20 px;
+  border: 1px solid slategrey;
+  border-radius: 8px;
+  height: 100%;
+  width: 100%;
+  max-width: 400px;
+}
+
+.form-row{
+  display: flex;
+  margin-bottom: 0.5rem;
+  padding: 1rem;
+  border-radius: 50px;
+}
+
+.form-control{
+  text-align: center;
+  font-size: large;
+  padding:  10 px;
+  border: 1px solid slategrey;
+  border-radius: 50px;
+  height: 4rem;
+  width: 100%;
+  max-width: 400px;
+  
+}
+
+.form-control:focus {
+  outline-color: slategrey;
+
+}
+
+.btn {
+  width: 100%;
+  font-size: large;
+  background-color: rgb(246, 246, 247);
+  color: black;
+  border: 1px solid slategrey;
+  border-radius: 50px;
+  cursor: pointer; 
+  padding: 0.5rem;
+  height: 4rem;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: rgb(35, 69, 122);
+}
+
+.form-control-1{
+  text-align: center;
+  font-size: large;
+  padding:  10 px;
+  border: 1px solid slategrey;
+  border-radius: 50px;
+  height: 4rem;
+  width: 100%;
+  max-width: 400px;
+}
+
+.contact-form-1{
+  text-align: center;
+  font-size: large;
+  padding:  20 px;
+  border: 1px solid slategrey;
+  border-radius: 8px;
+  height: 100%;
+  width: 100%;
+  max-width: 400px;
+}
+
+.form-row-1{
+  display: flex;
+  margin-bottom: 0.5rem;
+  padding: 0.75rem;
+  border-radius: 50px;
+}
+
+.col-1{
+  width: 30%;
+}
+.Heading-1{
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.form-control-1:focus{
+  outline-color: slategrey;
+}
+
+
+
+.captcha input{
+  text-align: center;
+  font-size: large;
+  padding:  10 px;
+  border: 1px solid slategrey;
+  border-radius: 50px;
+  height: 4rem;
+  width: 100%;
+  max-width: 400px;
+}
+
+
+.captcha {
+  color: #6647f1;
+}
+
+@media (max-width: 1024px){
+  .container {
+    width: 90%;
+    padding: 15px;
+  }
+
+  h2{
+    font-size: 1.6rem;
+  }
+
+  input, button {
+    font-size: 1rem;
+  }
+
+  .coptcha input {
+    width: 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container{
+    width: 100%;
+    padding: 10px;
+  }
+
+  h2 {
+    font-size: 1.2ram;
+  }
+  input, button {
+    font-size: 0.9rem;
+  }
+
+  .captcha iput {
+    width: 45px;
+  }
+
+  p {
+    font-size: 0.8rem;
+  }
+}
+/*برای پنهان کردن  password*/
+.show-password {
+  margin-left: 10px;
+}
+
+.show-password:checked + label + #password {
+  -webkit-text-fill-color: black;
+  -webkit-text-security: none;
+  text-security:none;
+}
